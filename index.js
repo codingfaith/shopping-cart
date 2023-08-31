@@ -53,12 +53,14 @@ function appendItemToShoppingListEl(item) {
     let newEl = document.createElement("li")
     
     newEl.textContent = itemValue
-    
+    shoppingListEl.append(newEl)
+
     newEl.addEventListener("click", function() {
+        newEl.classList.toggle("strike")
+    })
+
+    newEl.addEventListener("dblclick", function() {
         let exactLocationOfItemInDB = ref(database, `shoppingList/${itemID}`)
-        
         remove(exactLocationOfItemInDB)
     })
-    
-    shoppingListEl.append(newEl)
 }
