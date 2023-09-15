@@ -37,22 +37,32 @@ input {
     margin: 0 0 10px 0;
 }
 
+.back,
 button {
-    color: #e7c6b7;
-    background-color: #432000;
     border: 0;
     padding: 15px;
-    border-radius: 8px;
     font-size: 20px;
-    text-align: center;
+    color: #e7c6b7;
     font-weight: bold;
+    text-align: center;
+    border-radius: 8px;
+    text-decoration: none;
+    background-color: #432000;
     font-family: 'Rubik', sans-serif;
 }
-p {
+button#add-toDo {
+    color: #432000;
+    background: #f2c12e;
+}
+p,
+figure {
     font-size: 20px;
     text-align: center;
     font-weight: bold;
     color: #432000;
+}
+h2 {
+    text-align: center; 
 }
 
 button:hover {
@@ -85,4 +95,13 @@ ul li:hover {
 }
 .strike {
     text-decoration: line-through;
+}
+
+figure img:active {
+    transform: translateY(3px);
+}
+
+header {
+    color: #FFECC7;
+    background: rgb(26, 13, 0);
 }
