@@ -1,10 +1,13 @@
+* {
+    user-select: none;
+}
 html, body {
     margin: 0;
     padding: 0;
     font-family: 'Rubik', sans-serif;
     background-color: #c1c1c1;
     color: #432000;
-    user-select: none;
+    
 }
 
 .container {
