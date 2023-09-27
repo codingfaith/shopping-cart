@@ -63,6 +63,7 @@ figure {
     text-align: center;
     font-weight: bold;
     color: #432000;
+    user-select: none;
 }
 h2 {
     text-align: center; 
@@ -106,5 +107,5 @@ figure img:active {
 
 header {
     color: #FFECC7;
-    background: rgb(26, 13, 0);
+    background: #432000;
 }
