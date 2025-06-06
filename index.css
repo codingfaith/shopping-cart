@@ -7,17 +7,20 @@ html, body {
     font-family: 'Rubik', sans-serif;
     background-color: #c1c1c1;
     color: #432000;
-    
+    height: 100vh;
+    overflow-y: hidden;
 }
 
 .container {
-    height: 100vh;
+    height: 100%;
     display: flex;
     padding: 10px;
-    margin: 0 auto;
+    margin: 0 auto; 
     max-width: 500px;
+    overflow-y: scroll;  
     background: #ffffff;
     flex-direction: column;
+    justify-content: space-around;
     box-shadow: 1px 1px 5px #432000;
 }
 
